@@ -66,10 +66,37 @@
 
 <!DOCTYPE html>
 <html>
+<h2>ARHGAP11A</h2>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
 <body>
 
-<h2>ARHGAP11A</h2>
-<img src="ARHGAP11A.png" alt="">
+<div class="row">
+  <div class="column">
+    <img src="ARHGAP11A.png" alt="Forest"  style="width:100%">
+  </div>
+  <div class="column">
+    <img src="ARHGAP11A_pie.png" alt="Forest" style="width:80%">
+  </div>
+</div>
 
 </body>
 </html>
